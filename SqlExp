@@ -1,0 +1,12 @@
+create database books_db;
+use books_db;
+
+create table IF NOT EXISTS books (
+   id INT AUTO_INCREMENT,
+   author VARCHAR(20),
+   customer VARCHAR(20),
+   title_of_book VARCHAR(20),
+   add_date datetime,
+   price INT,
+   PRIMARY KEY (id)
+)
